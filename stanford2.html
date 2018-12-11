@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Egor Z.</title>
+		<link href="styleB.css" rel="stylesheet" />
+		<meta charset="utf-8" />
+		<meta content="width=device-width, initial-scale=1" name="viewport" />
+		<style type="text/css">
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: orange;
+    padding: 1px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+/* Container for flexboxes */
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: yellow;
+    padding: 20px;
+ 
+  
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+
+}
+
+/* Style the content */
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #000000
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    
+}
+
+/* Style the footer */
+footer {
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+}		</style>
+	</head>
+	<body>
+		<header>
+		<h2>
+			Egor Z.</h2>
+		</header> <section> <nav>
+		<p>
+			Cайт студента УИР 552 Егора Захторенко</p>
+		<ul>
+			<li>
+				<a href="index.html"><span style="color:#4b0082;">На главную</span></a></li>
+			
+		</ul>
+		<p>
+			&nbsp;</p>
+		<p style="text-align: center;">
+			&nbsp;</p>
+		<p style="text-align: center;">
+			<span style="color:#green;">Стэнфорд&nbsp;<a href="index.html">v1</a>&nbsp;/&nbsp;</span><span style="color:#4b0082;"><a href="stanford2.html">v2</a></span></p>
+		</nav> <article class="post" itemid="353283" itemscope="" itemtype="http://schema.org/Article"> &nbsp; <article id="box">
+		<div>
+			<p1>A</p1></div>
+		<div>
+			<p1>B</p1></div>
+		<div>
+			<p1>C</p1></div>
+		<div>
+			<p1>D</p1></div>
+		</article> </article> </section> <footer>
+		<p>
+			This is footer</p>
+		</footer></body>
+</html>
